@@ -1,0 +1,265 @@
+/* Work Sans Font Family */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+  *{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+.header{
+    display: flex;
+    gap: 1vw;
+    margin-left: 10vw;
+}
+.header img{
+    margin-top: 2.5vh;
+}
+.header h3{
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header h3 span{
+    color: #FF42A5;
+}
+.center-header {
+    display: flex;
+    gap: 2vw;
+    margin-right: 10vw;
+}
+nav > ul{
+    display: flex;
+    gap: 2vw;
+}
+nav li{
+    list-style: none;
+    gap: 2vw;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
+}
+.right-header{
+    text-align: center;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 0vh 1vw 2.5vh 0vw;
+    height: 4vh;
+}
+
+.banner{
+    display: flex;
+    gap: 5vw;
+}
+.left-banner{
+    width:40vw;
+    padding: 10vw 5vw 10vw 10vw;
+}
+.banner-left-part{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-title{
+    text-align: center;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+right-banner{
+    width: 55vw;
+    height: 60%;
+    padding-right: 20vw;
+}
+.banner,.gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    padding: 0rem 5rem; 
+    gap: 2rem;
+}
+.gamer-photo{
+    width: 120%;
+}
+.gamer-details{
+    width: 100%;
+} 
+.gamer-photo img{
+    width:90%;
+}
+.gamer-title{
+    text-align: right;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: auto;
+}
+  .gamer-btn{
+    /*float: right; */
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 1.5rem 2.2rem;
+    align-items: flex-start;
+    gap:0.5rem;
+    border-radius: 2.5rem;
+    border: none;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.gamer-purpose{
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.gamer-conclusion{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: right;
+}
+
+.funny-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.funny-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.funny-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.funny-container{
+    display: flex;
+    gap:0px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.funny-image{
+    width:100%;
+    height:100%;
+}
+.funny-image:hover{
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border:2px solid #FF42A5;
+}
+figcaption{
+    color: #534C64;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.play{
+    display: flex;
+    gap: 2rem;
+}
+.play-content{
+    margin:15vh 0vw 15vh 10vw;
+}
+.play-content h3{
+    margin: 0px;
+}
+.play-title{
+    text-align: right;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.play-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+}
+.play-image{
+    height:50%;
+    width:40%;
+}
+.play-top-image{
+    height: 80%;
+    width: 60%;
+    margin: 0.5rem 10rem 0rem 10rem;
+}
+.play-bottom-image{
+    border:5px solid #FFF;
+    border-radius: 15px;
+    height:150px;
+    width: 70px;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
